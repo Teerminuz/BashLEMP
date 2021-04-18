@@ -6,8 +6,13 @@ password = "Techgrounds101"
 
 #install mysql + mysql secure installation
 sudo apt install mysql-server -y
+
+#mysql primary installation
+
 sudo mysql_secure_installation
 
+echo $password
+echo $password
 #mysql secure installation script
 #setup validate password component
 y
